@@ -1,2 +1,38 @@
-# Bramante39M
-Bramante39M dataset
+## 📚 Bramante39M Dataset
+
+**Bramante39M** is a large-scale dataset introduced in our paper for advancing research in **camera localisation** under challenging deformation and motion conditions. It provides a challenging benchmark for evaluating algorithms that disentangle camera motion from object deformation.
+
+### Key Features
+- **39 million deformation pathways** across varying baseline magnitudes
+- Includes both **SfT** (template-based) and **NRSfM** (template-less) settings
+- Provides realistic but challenging deformable scenes with controlled variations
+- Provides both **pose ground-truth** and **deformation ground-truth**
+- Designed to test robustness under **as-static-as-possible (ASAP)** constraints, but future research may benchmark against our accuracies
+
+### Dataset Statistics
+- **Total deformed poses:** 9
+- **Total images:** 64  
+- **Total pathways:** 39M
+- **Scene types:** Template-based, template-less, hybrid  
+- **Groundtruth:** Camera poses, object deformations, template, keypoint correspondences
+- **Scale:** Room-scaled camera motion, deforming object is an A4-sized paper
+
+
+### Applications
+- Benchmarking NRSfM and SfT algorithms
+- Studying ambiguity of camera pose under isometric deformations
+- Evaluating robustness of **ASAP** priors
+- Learned camera pose estimation in deformable scenes
+
+
+---
+
+If you use **Bramante39M** in your research, please cite our paper:
+
+```bibtex
+@article{bartoli2025,
+  title   = {Camera Pose in SfT and NRSfM under Isometric and Weaker Deformation Models},
+  author  = {Adrien Bartoli, Agniva Sengupta},
+  journal = {Computer Vision and Image Understanding},
+  year    = {2025}
+}

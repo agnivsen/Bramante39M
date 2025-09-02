@@ -2,6 +2,8 @@
 
 **Bramante39M** is a large-scale dataset introduced in our paper for advancing research in **camera localisation** under challenging deformation and motion conditions. It provides a challenging benchmark for evaluating algorithms that disentangle camera motion from object deformation.
 
+![plot](./Images/B39M.png)
+
 ### Key Features
 - **39 million deformation pathways** across varying baseline magnitudes
 - Includes both **SfT** (template-based) and **NRSfM** (template-less) settings

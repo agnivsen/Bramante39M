@@ -14,7 +14,7 @@
 ### Dataset Statistics
 - **Total deformed poses:** 9
 - **Total images:** 64  
-- **Total pathways:** 39 million
+- **Total pathways:** ~39 million
 - **Scene types:** Template-based, template-less, hybrid  
 - **Groundtruth:** Camera poses, object deformations, template, keypoint correspondences
 - **Scale:** Room-scaled camera motion, deforming object is an A4-sized paper

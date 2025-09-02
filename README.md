@@ -1,4 +1,4 @@
-## 📚 Bramante39M Dataset
+## Bramante39M Dataset
 
 **Bramante39M** is a large-scale dataset introduced in our paper for advancing research in **camera localisation** under challenging deformation and motion conditions. It provides a challenging benchmark for evaluating algorithms that disentangle camera motion from object deformation.
 
@@ -12,7 +12,7 @@
 ### Dataset Statistics
 - **Total deformed poses:** 9
 - **Total images:** 64  
-- **Total pathways:** 39M
+- **Total pathways:** 39 million
 - **Scene types:** Template-based, template-less, hybrid  
 - **Groundtruth:** Camera poses, object deformations, template, keypoint correspondences
 - **Scale:** Room-scaled camera motion, deforming object is an A4-sized paper
@@ -26,6 +26,7 @@
 
 
 ---
+The pre-print of our article is availble at: https://encov.ip.uca.fr/publications/pubfiles/2025_Bartoli_etal_CVIU_pose.pdf
 
 If you use **Bramante39M** in your research, please cite our paper:
 

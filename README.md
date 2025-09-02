@@ -21,8 +21,9 @@
 
 
 ### Applications
-- Benchmarking NRSfM and SfT algorithms
+- Benchmarking **NRS*f*M** and **S*f*T** algorithms
 - Studying ambiguity of camera pose under isometric deformations
+- Benchmarking **deformable SL*a*M** algorithms
 - Evaluating robustness of **ASAP** priors
 - Learned camera pose estimation in deformable scenes
 

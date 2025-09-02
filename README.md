@@ -1,15 +1,15 @@
 ## Bramante39M Dataset
 
-**Bramante39M** is a large-scale dataset introduced in our paper for advancing research in **camera localisation** under challenging deformation and motion conditions. It provides a challenging benchmark for evaluating algorithms that disentangle camera motion from object deformation.
+**Bramante39M** is a large-scale dataset introduced in our paper for advancing research in **camera localisation** under challenging deformation and motion conditions. It provides a challenging benchmark for evaluating algorithms that disentangle camera motion from object deformation. The dataset is being introduced in the context of Shape-from-Template (S*f*T) and Non Rigid Structure-from-Motion (NR-S*f*M), but can also be utilised for deformable Simultaneous Localization and Mapping (deformable SL*a*M) approaches.
 
 ![plot](./Images/B39M.png)
 
 ### Key Features
 - **39 million deformation pathways** across varying baseline magnitudes
-- Includes both **SfT** (template-based) and **NRSfM** (template-less) settings
+- Includes both S*f*T (template-based) and NR-S*f*M (template-less) settings
 - Provides realistic but challenging deformable scenes with controlled variations
 - Provides both **pose ground-truth** and **deformation ground-truth**
-- Designed to test robustness under **as-static-as-possible (ASAP)** constraints, but future research may benchmark against our accuracies
+- Designed to test robustness under **As-Static-As-Possible (ASAP)** constraints, but future research may benchmark against our accuracies
 
 ### Dataset Statistics
 - **Total deformed poses:** 9
